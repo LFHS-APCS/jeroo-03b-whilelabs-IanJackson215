@@ -33,8 +33,6 @@ public class Jeroo extends JerooBase {
      */
     public void clearFlowersToWater() 
     {
-    
-    }
         // while(<test>) //Step 2: Use the opposite of Step 1's result as the <test>
         {
             // Step 3:  Make progress towards the goal inside the loop
@@ -43,7 +41,7 @@ public class Jeroo extends JerooBase {
         // Step 1:  At the end of the while loop, what should be true?
         
     }
-
+ 
     /** 
      * Using a while loop, make the Jeroo faces north no matter what.
      * Follow the 3 steps for building a while loop:
@@ -73,6 +71,7 @@ public class Jeroo extends JerooBase {
       while (!isWater(AHEAD)) {
         hop();
       }
+
     }
 
     /**
